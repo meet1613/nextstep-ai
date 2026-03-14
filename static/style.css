@@ -69,4 +69,8 @@ button:active {
 #result {
     margin-top: 20px;
     font-weight: bold;
+    color: #111827;
+    background: #f1f5f9;
+    padding: 15px;
+    border-radius: 8px;
 }
