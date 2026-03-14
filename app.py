@@ -24,7 +24,7 @@ app = Flask(__name__)
 
 # OpenRouter client
 client = OpenAI(
-    api_key=os.getenv("OPENAI_API_KEY"),
+    api_key=os.environ.get("OPENAI_API_KEY"),
     base_url="https://openrouter.ai/api/v1"
 )
 
