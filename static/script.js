@@ -5,7 +5,7 @@ async function getSuggestion(){
 
     const result=document.getElementById("result");
 
-    result.innerHTML="Thinking...";
+    result.innerHTML="🤖 Thinking about your next step...";
 
     const response=await fetch("/suggest",{
         method:"POST",
